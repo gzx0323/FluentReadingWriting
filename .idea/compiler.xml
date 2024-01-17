@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com-gzx-AI" />
+        <module name="com-gzx-mq" />
+        <module name="com-gzx-timejob" />
+        <module name="com-gzx-QuestionBank" />
+        <module name="com-gzx-point" />
+        <module name="com-gzx-user" />
+        <module name="com-gzx-community" />
+        <module name="com-gzx-article" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="FluentReadingWriting" options="" />
+      <module name="com-gzx-AI" options="-parameters" />
+      <module name="com-gzx-QuestionBank" options="-parameters" />
+      <module name="com-gzx-article" options="-parameters" />
+      <module name="com-gzx-community" options="-parameters" />
+      <module name="com-gzx-mq" options="-parameters" />
+      <module name="com-gzx-point" options="-parameters" />
+      <module name="com-gzx-timejob" options="-parameters" />
+      <module name="com-gzx-user" options="-parameters" />
+    </option>
+  </component>
+</project>
